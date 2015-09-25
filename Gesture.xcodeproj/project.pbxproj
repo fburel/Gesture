@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0CFA44AE1BB19CBD009FCD37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFA44AD1BB19CBD009FCD37 /* AppDelegate.swift */; };
-		0CFA44B01BB19CBD009FCD37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFA44AF1BB19CBD009FCD37 /* ViewController.swift */; };
-		0CFA44B31BB19CBD009FCD37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFA44B11BB19CBD009FCD37 /* Main.storyboard */; };
 		0CFA44B51BB19CBD009FCD37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFA44B41BB19CBD009FCD37 /* Images.xcassets */; };
 		0CFA44B81BB19CBD009FCD37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CFA44B61BB19CBD009FCD37 /* LaunchScreen.xib */; };
 		0CFA44C41BB19CBD009FCD37 /* GestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFA44C31BB19CBD009FCD37 /* GestureTests.swift */; };
+		0CFA44CE1BB19D10009FCD37 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFA44CD1BB19D10009FCD37 /* Storyboard.storyboard */; };
+		0CFA44D01BB19D5B009FCD37 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFA44CF1BB19D5B009FCD37 /* GestureViewController.swift */; };
+		0CFA44D21BB19E0E009FCD37 /* PolygneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFA44D11BB19E0E009FCD37 /* PolygneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		0CFA44A81BB19CBD009FCD37 /* Gesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFA44AC1BB19CBD009FCD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CFA44AD1BB19CBD009FCD37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CFA44AF1BB19CBD009FCD37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0CFA44B21BB19CBD009FCD37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CFA44B41BB19CBD009FCD37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0CFA44B71BB19CBD009FCD37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0CFA44BD1BB19CBD009FCD37 /* GestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFA44C21BB19CBD009FCD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CFA44C31BB19CBD009FCD37 /* GestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureTests.swift; sourceTree = "<group>"; };
+		0CFA44CD1BB19D10009FCD37 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		0CFA44CF1BB19D5B009FCD37 /* GestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
+		0CFA44D11BB19E0E009FCD37 /* PolygneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolygneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,11 @@
 		0CFA44AA1BB19CBD009FCD37 /* Gesture */ = {
 			isa = PBXGroup;
 			children = (
+				0CFA44D11BB19E0E009FCD37 /* PolygneView.swift */,
 				0CFA44AD1BB19CBD009FCD37 /* AppDelegate.swift */,
-				0CFA44AF1BB19CBD009FCD37 /* ViewController.swift */,
-				0CFA44B11BB19CBD009FCD37 /* Main.storyboard */,
-				0CFA44B41BB19CBD009FCD37 /* Images.xcassets */,
-				0CFA44B61BB19CBD009FCD37 /* LaunchScreen.xib */,
 				0CFA44AB1BB19CBD009FCD37 /* Supporting Files */,
+				0CFA44CD1BB19D10009FCD37 /* Storyboard.storyboard */,
+				0CFA44CF1BB19D5B009FCD37 /* GestureViewController.swift */,
 			);
 			path = Gesture;
 			sourceTree = "<group>";
@@ -90,6 +91,8 @@
 		0CFA44AB1BB19CBD009FCD37 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0CFA44B61BB19CBD009FCD37 /* LaunchScreen.xib */,
+				0CFA44B41BB19CBD009FCD37 /* Images.xcassets */,
 				0CFA44AC1BB19CBD009FCD37 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					0CFA44A71BB19CBD009FCD37 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 68APJ54Y46;
 					};
 					0CFA44BC1BB19CBD009FCD37 = {
 						CreatedOnToolsVersion = 6.4;
@@ -192,9 +196,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CFA44B31BB19CBD009FCD37 /* Main.storyboard in Resources */,
 				0CFA44B81BB19CBD009FCD37 /* LaunchScreen.xib in Resources */,
 				0CFA44B51BB19CBD009FCD37 /* Images.xcassets in Resources */,
+				0CFA44CE1BB19D10009FCD37 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CFA44B01BB19CBD009FCD37 /* ViewController.swift in Sources */,
+				0CFA44D01BB19D5B009FCD37 /* GestureViewController.swift in Sources */,
 				0CFA44AE1BB19CBD009FCD37 /* AppDelegate.swift in Sources */,
+				0CFA44D21BB19E0E009FCD37 /* PolygneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +241,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0CFA44B11BB19CBD009FCD37 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0CFA44B21BB19CBD009FCD37 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0CFA44B61BB19CBD009FCD37 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -342,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Gesture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Gesture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +410,7 @@
 				0CFA44C91BB19CBD009FCD37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CFA44CA1BB19CBD009FCD37 /* Build configuration list for PBXNativeTarget "GestureTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +419,7 @@
 				0CFA44CC1BB19CBD009FCD37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
